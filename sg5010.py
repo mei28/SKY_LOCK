@@ -14,7 +14,7 @@ class Sg5010:
         self.direction = int(direction)
         self.servo = GPIO.PWM(self.pin, 50)
         self.servo.start(0.0)
-        atexit.register(self.cleanup)
+#       atexit.register(self.cleanup)
 
     def cleanup(self):
         self.servo.ChangeDutyCycle(self.henkan(0))
