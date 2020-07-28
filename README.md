@@ -8,8 +8,7 @@ sudo apt install python3-pip
 sudo pip3 install wiringpi
 ```
 
-# DESIGN SPARKの記事
+# ARTICLE
 
-`
-https://www.rs-online.com/designspark/skylock-jp
-`
+- [DESIGN SPARK](https://www.rs-online.com/designspark/skylock-jp)
+
